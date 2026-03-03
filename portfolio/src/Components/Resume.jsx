@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./Resume.css";
 
@@ -8,7 +9,7 @@ const Resume = () => {
 
       <div className="resume-container">
         <iframe
-          src="https://docs.google.com/document/d/12oQBp68MbzSsr7XeKzdTjTgyyh1ckdYY/preview"
+          src="https://drive.google.com/file/d/1QmzW2ORlxLoprONuvRyzVYADiS2REF7I/preview"
           title="Bandi Aneela Resume"
           className="resume-frame"
           allow="autoplay"
@@ -17,7 +18,7 @@ const Resume = () => {
 
       <div className="resume-buttons">
         <a
-          href="https://docs.google.com/document/d/12oQBp68MbzSsr7XeKzdTjTgyyh1ckdYY/view"
+          href="https://drive.google.com/file/d/1QmzW2ORlxLoprONuvRyzVYADiS2REF7I/view"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
@@ -26,7 +27,7 @@ const Resume = () => {
         </a>
 
         <a
-          href="https://docs.google.com/document/d/12oQBp68MbzSsr7XeKzdTjTgyyh1ckdYY/export?format=pdf"
+          href="https://drive.google.com/uc?export=download&id=1QmzW2ORlxLoprONuvRyzVYADiS2REF7I"
           className="resume-btn"
         >
           📄 Download PDF
@@ -37,4 +38,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
